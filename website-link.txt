@@ -1,0 +1,11 @@
+https://YOUR-USERNAME.github.io/jcda-website/
+
+INSTRUCTIONS FOR HOSTING:
+1. Create a free GitHub account (if you don’t have one).
+2. Create a new repository named "jcda-website".
+3. Upload all the files and folders (index.html, about.html, events.html, projects-gallery.html, contact.html, css/, js/, images/).
+4. Go to Settings → Pages → Source: Deploy from a branch → main → / (root) → Save.
+5. After a few minutes your site will be live at: https://YOUR-USERNAME.github.io/jcda-website/
+6. Replace the URL above with your real live URL before final submission.
+
+Alternative free hosts: Netlify (drag & drop the folder) or Vercel.

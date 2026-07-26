@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Upcoming community events from the Jamaica Community Development Association – workshops, clean-ups, youth camps, and more.">
+  <title>Events | Jamaica Community Development Association (JCDA)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="JCDA Logo">
+          <span>JCDA</span>
+        </a>
+        <button class="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html" class="active">Events</a></li>
+          <li><a href="projects-gallery.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding:3.5rem 0;">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Upcoming Events</h1>
+        <p>Join us at workshops, community clean-ups, youth programmes, and more across Jamaica.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Community Events</h2>
+      <p class="section-subtitle">Filter by category to find events that interest you.</p>
+
+      <!-- Filter Buttons -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Events</button>
+        <button class="filter-btn" data-filter="education">Education</button>
+        <button class="filter-btn" data-filter="youth">Youth</button>
+        <button class="filter-btn" data-filter="environment">Environment</button>
+        <button class="filter-btn" data-filter="community">Community</button>
+      </div>
+
+      <!-- Event Cards -->
+      <div class="cards-grid">
+        <!-- Event 1 -->
+        <article class="card event-card" data-category="education">
+          <div class="card-img">📚</div>
+          <div class="card-body">
+            <span class="badge education">Education</span>
+            <h3>Digital Literacy Workshop</h3>
+            <div class="card-meta">
+              <span>📅 15 Aug 2026</span>
+              <span>📍 Kingston</span>
+            </div>
+            <p>Free hands-on training in basic computer skills, email, and online safety for adults and seniors. Laptops provided.</p>
+          </div>
+        </article>
+
+        <!-- Event 2 -->
+        <article class="card event-card" data-category="youth">
+          <div class="card-img">⚽</div>
+          <div class="card-body">
+            <span class="badge youth">Youth</span>
+            <h3>Youth Leadership Camp</h3>
+            <div class="card-meta">
+              <span>📅 22–24 Aug 2026</span>
+              <span>📍 St. Ann</span>
+            </div>
+            <p>Three-day residential camp focusing on leadership, teamwork, public speaking, and community project design for ages 14–18.</p>
+          </div>
+        </article>
+
+        <!-- Event 3 -->
+        <article class="card event-card" data-category="environment">
+          <div class="card-img">🌱</div>
+          <div class="card-body">
+            <span class="badge environment">Environment</span>
+            <h3>Tree Planting Day – Clarendon</h3>
+            <div class="card-meta">
+              <span>📅 5 Sep 2026</span>
+              <span>📍 Clarendon</span>
+            </div>
+            <p>Join volunteers to plant 1,000 native trees on degraded hillsides. Tools, seedlings, and refreshments provided. All ages welcome.</p>
+          </div>
+        </article>
+
+        <!-- Event 4 -->
+        <article class="card event-card" data-category="community">
+          <div class="card-img">🤝</div>
+          <div class="card-body">
+            <span class="badge community">Community</span>
+            <h3>Community Health Fair</h3>
+            <div class="card-meta">
+              <span>📅 12 Sep 2026</span>
+              <span>📍 Spanish Town</span>
+            </div>
+            <p>Free health screenings, nutrition talks, and information on local support services. Partnered with Ministry of Health clinics.</p>
+          </div>
+        </article>
+
+        <!-- Event 5 (extra) -->
+        <article class="card event-card" data-category="education">
+          <div class="card-img">💻</div>
+          <div class="card-body">
+            <span class="badge education">Education</span>
+            <h3>After-School Coding Club Kick-off</h3>
+            <div class="card-meta">
+              <span>📅 19 Sep 2026</span>
+              <span>📍 Portmore</span>
+            </div>
+            <p>Launch of our new coding and problem-solving club for secondary school students. No prior experience needed.</p>
+          </div>
+        </article>
+
+        <!-- Event 6 -->
+        <article class="card event-card" data-category="youth">
+          <div class="card-img">🎤</div>
+          <div class="card-body">
+            <span class="badge youth">Youth</span>
+            <h3>Youth Open Mic & Career Talk</h3>
+            <div class="card-meta">
+              <span>📅 3 Oct 2026</span>
+              <span>📍 Kingston</span>
+            </div>
+            <p>An evening of spoken word, music, and conversations with young professionals from different career paths.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>JCDA</h4>
+          <p>Jamaica Community Development Association is a non-profit organisation dedicated to improving communities through education, youth programmes, environmental projects, and outreach.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="events.html">Events</a></p>
+          <p><a href="projects-gallery.html">Projects</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>15 Hope Road<br>Kingston 10, Jamaica</p>
+          <p>info@jcda.org.jm</p>
+          <p>(876) 555-0192</p>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <p><a href="#">Facebook</a></p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">Twitter / X</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jamaica Community Development Association. All rights reserved. | Student Project – Internet Authoring I (ITT208)</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

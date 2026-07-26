@@ -1,0 +1,15 @@
+CONTRIBUTION STATEMENT
+Jamaica Community Development Association (JCDA) Website
+Internet Authoring I (ITT208) – Summer 2026
+
+Full Name: Anthoneil Foote
+Student ID: 456322
+
+Contribution:
+- Planned overall site structure and page content
+- Designed and coded the Home page, About Us page, and Contact page
+- Wrote the external CSS (style.css) including responsive media queries, Flexbox/Grid layouts, and visual design
+- Implemented JavaScript contact form validation and mobile navigation toggle
+- Tested pages for responsiveness and accessibility (alt text, semantic HTML, contrast)
+- Prepared final folder structure and documentation files
+
